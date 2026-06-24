@@ -205,4 +205,135 @@ const PRODUCTS = [
         rating: 4.5,
         reviews: 74
     }
+,
+    {
+        id: 21,
+        name: 'Sony WH-CH520 Wireless Headphones',
+        category: 'electronics',
+        price: 31.35,
+        description: 'Bluetooth on-ear headset with microphone, up to 50 hours battery life and quick charging.',
+        image: 'https://images.unsplash.com/photo-1518444020459-9f86bdc8b5c4?w=500&h=500&fit=crop',
+        rating: 4.5,
+        reviews: 33000
+    },
+    {
+        id: 22,
+        name: 'Meta Ray-Ban (Gen 2) Wayfarer Smart Glasses',
+        category: 'electronics',
+        price: 409.00,
+        description: 'Smart AI glasses with 2x battery life, 3K Ultra HD, 12MP camera and audio/video recording.',
+        image: 'https://images.unsplash.com/photo-1526178611996-7f3b3a2b7f8b?w=500&h=500&fit=crop',
+        rating: 4.2,
+        reviews: 2400
+    },
+    {
+        id: 23,
+        name: 'WOLFBOX MegaFlow 50 Compressed Air Duster',
+        category: 'electronics',
+        price: 32.29,
+        description: 'Rechargeable electric air duster with 3-speed adjustable blower for cleaning electronics and keyboards.',
+        image: 'https://images.unsplash.com/photo-1581090468320-3b4b8f3d3b9a?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 12600
+    },
+    {
+        id: 24,
+        name: 'Apple iPhone 16 Pro Max (Renewed) - 256GB',
+        category: 'electronics',
+        price: 1484.99,
+        description: 'Renewed iPhone 16 Pro Max with large display, AI photo edits, and long battery life.',
+        image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop',
+        rating: 4.3,
+        reviews: 3300
+    },
+    {
+        id: 25,
+        name: 'ANDERY Car Phone Holder for MagSafe',
+        category: 'electronics',
+        price: 24.30,
+        description: 'Strong magnetic car mount with 360° adjustment and high suction, compatible with MagSafe phones.',
+        image: 'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=500&h=500&fit=crop',
+        rating: 4.4,
+        reviews: 22000
+    },
+    {
+        id: 26,
+        name: 'QINLIANF 5 Outlet Extender with 4 USB Ports',
+        category: 'electronics',
+        price: 9.99,
+        description: 'Surge protector power strip with multiple USB charging ports, ideal for travel and home offices.',
+        image: 'https://images.unsplash.com/photo-1583225151119-0b6a07a3a5f6?w=500&h=500&fit=crop',
+        rating: 4.7,
+        reviews: 114700
+    },
+    {
+        id: 27,
+        name: 'Energizer Alkaline Power AAA Batteries (32 Count)',
+        category: 'electronics',
+        price: 19.99,
+        description: 'Long-lasting AAA batteries for everyday electronics and emergency gear.',
+        image: 'https://images.unsplash.com/photo-1580910051070-0b8b1b8e2b5d?w=500&h=500&fit=crop',
+        rating: 4.8,
+        reviews: 56200
+    },
+    {
+        id: 28,
+        name: 'FYY Travel Cable Organizer Pouch',
+        category: 'electronics',
+        price: 9.95,
+        description: 'Waterproof double-layer organizer pouch for cables, chargers, and small electronics.',
+        image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 38400
+    },
+    {
+        id: 29,
+        name: 'Samsung Galaxy Z Fold7 - 256GB',
+        category: 'electronics',
+        price: 1484.99,
+        description: 'Foldable AI smartphone with large multitasking display, advanced camera, and long battery life.',
+        image: 'https://images.unsplash.com/photo-1523475496153-3d6cc40f3b9b?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 707
+    },
+    {
+        id: 30,
+        name: 'Kasa Smart Plug HS103P4 (4-Pack)',
+        category: 'electronics',
+        price: 35.99,
+        description: 'Smart Wi-Fi outlet works with Alexa and Google Home — no hub required.',
+        image: 'https://images.unsplash.com/photo-1603398938378-2b2b3f9f6f3a?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 150300
+    },
+    {
+        id: 31,
+        name: 'WOLFBOX MF100 Electric Air Duster',
+        category: 'electronics',
+        price: 59.83,
+        description: 'High-power cordless air duster with adjustable gears for cleaning electronics and outdoor gear.',
+        image: 'https://images.unsplash.com/photo-1593642634443-44adaa06623a?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 7100
+    },
+    {
+        id: 32,
+        name: 'Garmin fēnix 8 – 51 mm Multisport GPS Smartwatch',
+        category: 'electronics',
+        price: 949.99,
+        description: 'Premium multisport GPS watch with AMOLED display, long battery life, and advanced sensors.',
+        image: 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=500&h=500&fit=crop',
+        rating: 4.4,
+        reviews: 387
+    },
+    {
+        id: 33,
+        name: 'Samsung Galaxy Buds 3 Pro',
+        category: 'electronics',
+        price: 239.99,
+        description: 'True wireless earbuds with noise cancelling, sound optimization, and redesigned comfort fit.',
+        image: 'https://images.unsplash.com/photo-1525182008055-f88b95ff7980?w=500&h=500&fit=crop',
+        rating: 4.2,
+        reviews: 6300
+    }
 ];
