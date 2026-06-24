@@ -27,6 +27,7 @@
                 <li><a href="#products" class="nav-link">Products</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#sell" class="nav-link">Sell</a></li>
             </ul>
             <div class="cart-icon" id="cart-toggle">
                 <i class="fas fa-shopping-cart"></i>
@@ -41,6 +42,7 @@
         <a href="#products" class="mobile-nav-link">Products</a>
         <a href="#about" class="mobile-nav-link">About</a>
         <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="#sell" class="mobile-nav-link">Sell</a>
     </div>
 
     <!-- Shopping Cart Sidebar -->
@@ -174,6 +176,83 @@
         </div>
     </section>
 
+    <!-- Seller Registration Section -->
+    <section class="seller-section" id="sell">
+        <div class="container">
+            <h2 class="section-title">Become a Seller</h2>
+            <div class="seller-content">
+                <div class="seller-info">
+                    <h3>Start Selling Your Products on DyQani</h3>
+                    <p>Join thousands of sellers who are growing their business on our platform. Reach millions of customers and build your brand.</p>
+                    <div class="seller-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Grow Your Business</h4>
+                            <p>Access to millions of shoppers worldwide</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Safe & Secure</h4>
+                            <p>Buyer protection and secure payment processing</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-headset"></i>
+                            <h4>24/7 Support</h4>
+                            <p>Dedicated seller support team to help you succeed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seller-form-container">
+                    <form id="seller-form" class="seller-form">
+                        <h3>Create Your Shop</h3>
+                        <div class="form-group">
+                            <label for="shop-name">Shop Name</label>
+                            <input type="text" id="shop-name" name="shopName" placeholder="Your unique shop name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="seller-name">Full Name</label>
+                            <input type="text" id="seller-name" name="sellerName" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="seller-email">Email Address</label>
+                            <input type="email" id="seller-email" name="sellerEmail" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="seller-phone">Phone Number</label>
+                            <input type="tel" id="seller-phone" name="sellerPhone" placeholder="+1 (800) 123-4567" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="shop-category">Primary Category</label>
+                            <select id="shop-category" name="shopCategory" required>
+                                <option value="">Select a category</option>
+                                <option value="kitchen">Kitchen & Dining</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="fashion">Fashion</option>
+                                <option value="home-improvement">Home Improvement</option>
+                                <option value="sports">Sports & Fitness</option>
+                                <option value="beauty">Beauty & Personal Care</option>
+                                <option value="toys">Toys & Kids</option>
+                                <option value="groceries">Groceries & Pantry</option>
+                                <option value="furniture">Furniture</option>
+                                <option value="outdoors">Outdoors & Camping</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="shop-description">Shop Description</label>
+                            <textarea id="shop-description" name="shopDescription" placeholder="Tell customers about your shop..." rows="4"></textarea>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the Terms of Service and Seller Agreement</label>
+                        </div>
+                        <button type="submit" class="btn-sell">Create My Shop</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
@@ -188,6 +267,7 @@
                     <li><a href="#products">Products</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="#sell">Become a Seller</a></li>
                 </ul>
             </div>
             <div class="footer-section">

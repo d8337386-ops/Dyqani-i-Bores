@@ -361,6 +361,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 500);
 });
 
+// ========== SELLER REGISTRATION ==========
+const sellerForm = document.getElementById('seller-form');
+
+if (sellerForm) {
+    sellerForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Collect form data
+        const sellerData = {
+            shopName: document.getElementById('shop-name').value,
+            sellerName: document.getElementById('seller-name').value,
+            sellerEmail: document.getElementById('seller-email').value,
+            sellerPhone: document.getElementById('seller-phone').value,
+            shopCategory: document.getElementById('shop-category').value,
+            shopDescription: document.getElementById('shop-description').value,
+            createdDate: new Date().toISOString()
+        };
+
+        // Save to localStorage
+        const existingSellers = JSON.parse(localStorage.getItem('sellers') || '[]');
+        existingSellers.push(sellerData);
+        localStorage.setItem('sellers', JSON.stringify(existingSellers));
+
+        // Show success message
+        showToast(`🎉 Welcome, ${sellerData.shopName}! Your shop has been created successfully!`);
+
+        // Reset form
+        sellerForm.reset();
+
+        // Scroll to products after delay
+        setTimeout(() => {
+            document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+        }, 1500);
+    });
+}
+
 // ========== PERFORMANCE: LAZY LOADING IMAGES ==========
 if ('IntersectionObserver' in window) {
     const imageObserver = new IntersectionObserver((entries, observer) => {

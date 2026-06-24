@@ -855,6 +855,174 @@ body::after {
     color: var(--muted-text);
 }
 
+/* ========== SELLER SECTION ========== */
+.seller-section {
+    padding: 4rem 0;
+    background-color: rgba(124, 77, 255, 0.04);
+}
+
+.seller-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.seller-info h3 {
+    font-size: 2rem;
+    color: var(--light-purple);
+    margin-bottom: 1rem;
+}
+
+.seller-info p {
+    color: var(--muted-text);
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.seller-benefits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.benefit-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-purple);
+    transition: var(--transition);
+}
+
+.benefit-item:hover {
+    background-color: rgba(124, 77, 255, 0.12);
+    transform: translateX(5px);
+}
+
+.benefit-item i {
+    font-size: 1.8rem;
+    color: var(--primary-purple);
+    min-width: 50px;
+}
+
+.benefit-item h4 {
+    color: var(--light-purple);
+    margin-bottom: 0.5rem;
+}
+
+.benefit-item p {
+    color: var(--muted-text);
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.seller-form-container {
+    background-color: var(--panel-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+}
+
+.seller-form h3 {
+    color: var(--light-purple);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: var(--muted-text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-purple);
+    box-shadow: 0 0 0 3px rgba(124, 77, 255, 0.15);
+}
+
+.form-group.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.form-group.checkbox input {
+    width: auto;
+    margin-right: 0.75rem;
+}
+
+.form-group.checkbox label {
+    margin: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-sell {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-purple);
+    color: var(--dark-bg);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-sell:hover {
+    background-color: var(--light-purple);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(124, 77, 255, 0.3);
+}
+
+.btn-sell:active {
+    transform: translateY(0);
+}
+
+/* ========== RESPONSIVE: SELLER SECTION ========== */
+@media (max-width: 768px) {
+    .seller-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .seller-benefits {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ========== FOOTER ========== */
 .footer {
     background-color: #08080f;
