@@ -124,4 +124,85 @@ const PRODUCTS = [
         rating: 4.6,
         reviews: 94
     }
+,
+    {
+        id: 13,
+        name: 'Wireless Noise-Cancelling Headphones',
+        category: 'electronics',
+        price: 199.99,
+        description: 'Over-ear Bluetooth headphones with active noise cancellation and 30h battery life.',
+        image: 'https://images.unsplash.com/photo-1518444020459-9f86bdc8b5c4?w=500&h=500&fit=crop',
+        rating: 4.7,
+        reviews: 421
+    },
+    {
+        id: 14,
+        name: 'Everyday Running Shoes',
+        category: 'fashion',
+        price: 89.99,
+        description: 'Lightweight, breathable sneakers for running and daily wear with cushioned sole.',
+        image: 'https://images.unsplash.com/photo-1528701800488-1c0a5f5f4d4b?w=500&h=500&fit=crop',
+        rating: 4.5,
+        reviews: 278
+    },
+    {
+        id: 15,
+        name: 'Yoga Mat Pro',
+        category: 'sports',
+        price: 39.99,
+        description: 'Eco-friendly non-slip yoga mat with extra cushioning and alignment lines.',
+        image: 'https://images.unsplash.com/photo-1549187774-b4e9b0445b3d?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 149
+    },
+    {
+        id: 16,
+        name: 'Educational Wooden Blocks',
+        category: 'toys',
+        price: 29.99,
+        description: 'Colorful wood block set for imaginative play and early learning.',
+        image: 'https://images.unsplash.com/photo-1581861800972-3f8b8b3e8a5c?w=500&h=500&fit=crop',
+        rating: 4.8,
+        reviews: 86
+    },
+    {
+        id: 17,
+        name: 'Nourishing Face Cream',
+        category: 'beauty',
+        price: 34.99,
+        description: 'Daily moisturizing cream with hyaluronic acid for radiant, hydrated skin.',
+        image: 'https://images.unsplash.com/photo-1542831371-d531d36971e6?w=500&h=500&fit=crop',
+        rating: 4.4,
+        reviews: 204
+    },
+    {
+        id: 18,
+        name: 'Organic Pantry Essentials Box',
+        category: 'groceries',
+        price: 49.99,
+        description: 'Curated box of organic staples: olive oil, grains, spices, and teas.',
+        image: 'https://images.unsplash.com/photo-1507120410856-1f35574c3b45?w=500&h=500&fit=crop',
+        rating: 4.6,
+        reviews: 62
+    },
+    {
+        id: 19,
+        name: 'Modern Accent Chair',
+        category: 'furniture',
+        price: 249.99,
+        description: 'Comfortable accent chair with wooden legs and contemporary fabric upholstery.',
+        image: 'https://images.unsplash.com/photo-1493666438817-866a91353ca9?w=500&h=500&fit=crop',
+        rating: 4.3,
+        reviews: 51
+    },
+    {
+        id: 20,
+        name: 'Camping Hammock',
+        category: 'outdoors',
+        price: 59.99,
+        description: 'Lightweight, packable hammock made from ripstop nylon for camping and backyard use.',
+        image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500&h=500&fit=crop',
+        rating: 4.5,
+        reviews: 74
+    }
 ];
