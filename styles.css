@@ -696,8 +696,8 @@ body::after {
 
 .product-category {
     display: inline-block;
-    background-color: rgba(124, 77, 255, 0.08);
-    color: var(--primary-purple);
+    background-color: #000;
+    color: #fff;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.75rem;
